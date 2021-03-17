@@ -1,0 +1,10 @@
+structure = [{'Arizona': 'Phoenix', 'California': 'Sacramento', 'Hawaii': 'Honolulu'},5000,6000,7000,['hat', 't-shirt', 'jeans']]
+print(structure[1])
+print(structure[0])
+print(structure[4])
+print(structure[0]['Arizona'])
+print(structure[4][2])
+del(structure[3])
+print(structure)
+structure.append("new value")
+print(structure)
